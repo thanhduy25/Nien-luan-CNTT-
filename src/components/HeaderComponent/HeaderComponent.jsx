@@ -30,7 +30,7 @@ const HeaderComponent = () => {
       <Col style={{fontSize:'25px', color: '#fff'}} span={6}>Logo</Col>
       <Col span={12}>
       <ButtonSearch
-      textButton="Tìm kiếm"
+      textButton="Tìm"
       placeholder="Tìm kiếm sản phẩm"
       size="large"
       suffix={suffix}
