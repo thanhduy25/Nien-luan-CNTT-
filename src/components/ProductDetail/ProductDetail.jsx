@@ -12,6 +12,9 @@ const ProductDetail = () => {
         <Col span = {14}>
             <div>
                 <h1>Giới thiệu sản phẩm</h1>
+                <h3>Tên sản phẩm:</h3>
+                <h3>Giá:</h3>
+
             </div>
         <div style={{display:'flex'}}>
             <Button style={{width:'200px', height:'80px', margin:'10px'}} >Option 1</Button>
