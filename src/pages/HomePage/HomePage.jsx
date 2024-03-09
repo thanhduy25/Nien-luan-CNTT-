@@ -21,11 +21,10 @@ const HomePage = () => {
       </WrapperTypeProduct>
       <SliderComponent arrImage={[slider1, slider2]}/>
       <div style={{marginTop:'20px' ,display:'flex', alignItems:'center', gap:'20px'}}>
-      <CartComponent  />
-      <CartComponent  />
-      <CartComponent  />
-      <CartComponent  />
-      <CartComponent  />
+      <a href="/product-detail"><CartComponent  /></a>
+      <a href="/product-detail"><CartComponent  /></a>
+      <a href="/product-detail"><CartComponent  /></a>
+      <a href="/product-detail"><CartComponent  /></a>
       </div>
       
     </div>

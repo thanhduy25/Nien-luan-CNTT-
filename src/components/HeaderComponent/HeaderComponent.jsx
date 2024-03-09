@@ -27,19 +27,19 @@ const HeaderComponent = () => {
   return (
     <div>
     <WrapperHeader>
-      <Col style={{fontSize:'25px', color: '#fff'}} span={6}>Logo</Col>
+      <Col style={{fontSize:'25px', color: '#fff'}} span={6}><a style={{color:'#fff'}} href="/">Logo</a></Col>
       <Col span={12}>
       <ButtonSearch
-      textButton="Tìm"
-      placeholder="Tìm kiếm sản phẩm"
-      size="large"
-      suffix={suffix}
+        textButton="Tìm"
+        placeholder="Tìm kiếm sản phẩm"
+        size="large"
+        suffix={suffix}
     //   onSearch={onSearch}
     />
       </Col>
       <Col span={6} style={{display: 'flex', gap:'15px'}}>
       <WrapperAcount>
-        <UserOutlined style={{fontSize:'30px'}}/>
+        <a style={{color:'#fff'}} href="/login"><UserOutlined style={{fontSize:'30px'}}/></a>
         <div>
             <span>Đăng nhập</span>
             <div>
