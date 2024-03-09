@@ -6,7 +6,7 @@ import ProductPage from "../pages/ProductPage/ProductPage";
 export const routes = [
     {
     path: '/',
-    page:HomePage,
+    page: HomePage,
     isShowHeader : true
     },
     {
